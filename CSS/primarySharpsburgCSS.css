@@ -1,6 +1,6 @@
 /* basic CSS sheet for the Sharpsburg Web Site */
 
-/* set columns for page data */
+/* set columns for page data for main page */
 .column-left {
   float: left;
   width: 25%;
@@ -13,13 +13,38 @@
   border-style: outset;
   border-color: DodgerBlue;
   border-width: 1;
-
 }
 .column-right {
   float: right;
   width: 29%;
 }
-
+/* set columns for about us page */
+.column-narrow {
+  float: left;
+  width: 25%;
+}
+.column-wide {
+  display:inline-block;
+  width:60%;
+  margin-top:15px;
+}
+.bold-font {
+  font-size:15px;
+}
+.big-font {
+  font-size:30px;
+}
+.courier {
+  font-style: courier;
+}
+.faint-border-top {
+  border-top: 2px;
+  border-color: gray;
+}
+.form {
+  border: 2px;
+  border-style: solid;
+}
 /* set some basic structure for the sections */
 body {
   background-color: white;
@@ -42,7 +67,11 @@ p3 span {
   display: block;
   padding-left: 5%;
 }
-
+h4 {
+border-bottom: 2px;
+  border-color: darkgray;
+  font-size:18px;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -80,6 +109,13 @@ li a: hover {
   height: 500px;
   padding-left: 5%;
   padding-top: 15px;
+}
+#sharpsburgaerial-about {
+  width: 90%;
+  height: 600px;
+  padding-left: 5%;
+  padding-right:10%;
+  padding-top: 20px;
 }
 
 #optimusprimecasual {
